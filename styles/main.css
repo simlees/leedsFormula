@@ -1,0 +1,40 @@
+@import 'helpers.css';
+
+/* GLOBAL
+--------------------------------------*/
+
+body {
+  background: url(../images/indianapolis.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+}
+
+ul {
+	list-style-type: none;
+}
+
+
+/* HEADER
+--------------------------------------*/
+
+nav.header {
+	float: right;
+}
+
+nav.header ul li,
+nav.header ul li a {
+	display: inline-block;
+	font-size: 1.5rem;
+	padding: 0.5rem;
+}
+
+/* CONTENT
+--------------------------------------*/
+
+div.container {
+	text-align: center;
+}
+
