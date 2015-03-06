@@ -3,7 +3,7 @@ $(document).ready(function(){
 		var profile = $(this).find('img').prop('alt');
 		
 		$('ul#team-thumbs').fadeOut(600, function(){
-			$('div#team-box').html('<img src="images/team.jpg" alt="summat">');
+			$('div#team-box').html('<img src="images/team/1.jpg" alt="summat">');
 		});
 	});
 

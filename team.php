@@ -13,6 +13,7 @@ include 'misc/teammembers.php';
 	<ul id="team-thumbs">
 		<?php
 			$i = 0;
+			/*
 			foreach($teammembers as $member){
 				echo '
 					<li>
@@ -21,6 +22,15 @@ include 'misc/teammembers.php';
 					</li>
 				';
 				$i++;
+			}
+			*/
+			for($i=1;$i<=20;$i++){
+				echo '
+					<li>
+						<img src="images/team/thumbs/'.$i.'.jpg" alt="'.$i.'">
+						<h3>Name</h3>
+					</li>
+				';
 			}
 		?>
 	</ul>

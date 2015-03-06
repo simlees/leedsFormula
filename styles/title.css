@@ -1,0 +1,12 @@
+div.timer { float: right; padding-right: 3rem;}
+div.title-main {
+	padding: 1rem;
+	float: left;
+	border-right: 4px solid green;
+}
+
+div.title-main h1,
+div.title-main h2 {
+	text-align: right;
+	margin-top: 0;
+}
