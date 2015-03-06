@@ -8,9 +8,12 @@
 		<!-- BOOTSTRAP -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 
+		<!-- FONTS -->
+		<link href='http://fonts.googleapis.com/css?family=Noto+Sans|Roboto' rel='stylesheet' type='text/css'>
+
 		<!-- STYLESHEETS -->
 		<link rel="stylesheet" href="styles/main.css">
-		<link rel="stylesheet" href="<?php echo $styles; ?>">
+		<link rel="stylesheet" href="styles/pages.css">
 
 		<!-- SCRIPTS -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
@@ -22,7 +25,7 @@
 		<div class="container">
 			<nav class="header">
 				<ul>
-					<li><a href="home.php">HOME</a></li>
+					<li><a href="index.php">HOME</a></li>
 					<li><a href="team.php">TEAM</a></li>
 					<li><a href="news.php">NEWS</a></li>
 					<li><a href="heritage.php">HERITAGE</a></li>

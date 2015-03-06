@@ -1,8 +1,10 @@
 $(document).ready(function(){
 	$('ul#team-thumbs li').click(function(){
 		var profile = $(this).find('img').prop('alt');
-		console.log(profile); 
-		$('ul#team-bios li').
+		
+		$('ul#team-thumbs').fadeOut(600, function(){
+			$('div#team-box').html('<img src="images/team.jpg" alt="summat">');
+		});
 	});
 
 });

@@ -1,0 +1,27 @@
+/* TEAM
+--------------------------------------*/
+
+ul#team-thumbs li {
+	float: left;
+	padding: 1rem;
+}
+
+ul#team-thumbs li:hover {
+	outline: 1px solid #fff;
+}
+
+ul#team-bios li {
+	display: none;
+}
+
+/* NEWS
+--------------------------------------*/
+
+div#articles a {
+	float: left;
+	padding: 1rem;
+}
+
+div#articles img {
+	width: 200px;
+}

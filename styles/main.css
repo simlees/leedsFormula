@@ -16,12 +16,46 @@ ul {
 	list-style-type: none;
 }
 
+a { color: #808080; }
+a:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-align: left;
+}
+
+h1 {
+	font-size: 7rem;
+}
+
+h2 { margin-top: 0; width: 50rem;}
+
+.green {
+	color: green;
+}
+
+/* TYPOGRAPHY
+--------------------------------------*/
+
+body {
+	font-family: noto sans, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, a, a:hover, a:active {
+	font-family: roboto, sans-serif;
+}
+
+
 
 /* HEADER
 --------------------------------------*/
 
 nav.header {
-	float: right;
+	text-align: right;
+	padding-top: 3rem;
+
 }
 
 nav.header ul li,
