@@ -32,6 +32,10 @@ h1 {
 
 h2 { margin-top: 0; width: 50rem;}
 
+.gray {
+	color: #808080;
+}
+
 .green {
 	color: green;
 }
@@ -75,4 +79,6 @@ nav.header ul li a {
 div.container {
 	text-align: center;
 }
+
+
 

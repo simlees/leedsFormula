@@ -1,17 +1,29 @@
 /* TEAM
 --------------------------------------*/
 
-ul#team-thumbs li {
+div#team-box > div {
+	margin: 3rem 0;
+}
+
+div.team {
+	border-left: 2px solid #808080;
+}
+
+ul.team-thumbs li {
 	float: left;
 	padding: 1rem;
 }
 
-ul#team-thumbs li:hover {
+ul.team-thumbs li:hover {
 	outline: 1px solid #fff;
 }
 
-ul#team-bios li {
-	display: none;
+ul.team-thumbs li img {
+	width: 100px;
+}
+
+ul.team-thumbs li h3 {
+	font-size: 1.3rem;
 }
 
 /* NEWS
@@ -24,4 +36,43 @@ div#articles a {
 
 div#articles img {
 	width: 200px;
+}
+
+/* SPONSORS
+--------------------------------------*/
+
+div#sponsors {
+	text-align: left;
+}
+
+div#sponsors > a > div {
+	padding: 2rem;
+	margin: 2rem 0;
+}
+div#sponsors img.sponsor-logo {
+	max-width: 300px;
+}
+
+div#sponsors > a > div > div:nth-child(2) {
+	padding-left: 3rem;
+	border-left: 2px solid white;
+	color: white;
+}
+
+/* PROFILE
+--------------------------------------*/
+
+div.profile {
+	text-align: left;
+}
+
+div.profile img{
+	max-width: 400px;
+}
+
+/* CONTACT
+--------------------------------------*/
+
+div#contact-page img{
+	width: 100px;
 }
