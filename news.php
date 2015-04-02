@@ -8,7 +8,7 @@ include 'template/header.php';
 <h1>News</h1>
 
 <div id="articles">
-	<a href="#"><img src="images/news/oct14.png" alt="newsletter"></a>
+	<a href="newsletters/hi.pdf"><img src="images/news/oct14.png" alt="newsletter"></a>
 	<a href="#"><img src="images/news/nov14.png" alt="newsletter"></a>
 	<a href="#"><img src="images/news/dec14.png" alt="newsletter"></a>
 </div>
