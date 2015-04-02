@@ -17,7 +17,6 @@
 
 		<!-- SCRIPTS -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-		<script src="scripts/teamclick.js"></script>
 
 
 	</head>
@@ -28,6 +27,7 @@
 					<li><a href="index.php">HOME</a></li>
 					<li><a href="team.php">TEAM</a></li>
 					<li><a href="news.php">NEWS</a></li>
+					<li><a href="sponsors.php">SPONSORS</a></li>
 					<li><a href="heritage.php">HERITAGE</a></li>
 					<li><a href="contact.php">CONTACT</a></li>
 				</ul>
